@@ -10,7 +10,6 @@
 
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import logo from "./assets/goldsmithlogo.png";
 import { 
   Menu, 
   X, 
@@ -81,7 +80,7 @@ const Navbar = () => {
         <div className="flex justify-between h-24 items-center">
           <div className="shrink-0 flex items-center">
             <img 
-              src={logo}
+              src="/assets/goldsmithlogo.png" 
               alt="Goldsmith Logo" 
               className="h-16 w-auto object-contain" 
               referrerPolicy="no-referrer"

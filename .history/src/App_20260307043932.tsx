@@ -10,7 +10,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import logo from "./assets/goldsmithlogo.png";
+import logo from "../assets/goldsmithlogo.png";
 import { 
   Menu, 
   X, 
