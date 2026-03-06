@@ -570,7 +570,7 @@ const Footer = () => (
       <div className="grid lg:grid-cols-4 gap-20 mb-20">
         <div className="col-span-1 lg:col-span-2">
           <img 
-            src="/assets/goldsmithlogo.png" 
+            src={logo}
             alt="Goldsmith Logo" 
             className="h-16 w-auto object-contain mb-8" 
             referrerPolicy="no-referrer"
